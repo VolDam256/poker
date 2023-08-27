@@ -1,0 +1,31 @@
+{
+  "name": "pokerback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "lint": "eslint src --ext js, jsx --report-unused-disable-directives --no-error-on-unmatched-pattern --max-warnings 2",
+    "lint:fix": "eslint --ext js, jsx src --fix --color --report-unused-disable-directives --no-error-on-unmatched-pattern --max-warnings 2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-ws": "^5.0.2",
+    "jsonwebtoken": "^9.0.1",
+    "pg": "^8.11.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.32.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "eslint-plugin-node": "^11.1.0",
+    "nodemon": "^2.0.22"
+  }
+}
